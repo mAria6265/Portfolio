@@ -1,0 +1,34 @@
+@import url(https://fonts.google.com/share?selection.family=Cantata+One);
+
+:root{
+    --cor-principal:	#B0C4DE;
+    --cor-secundária: #4682B4 ;
+    --cor-destaque: #008B8B ;
+    --cor-terciaria: #5F9EA0;
+    --cor-subtítulo:  	#2F4F4F; 
+}
+
+body {
+    font-family: 'Cantata One', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundária);
+    font-weight: 700;
+}
+
+h4 {
+    color: var(--cor-subtítulo)
+}
+
+h3 {
+    color: var(--cor-terciaria)
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque)
+}
